@@ -33,6 +33,9 @@
 .inspiration { 
 	margin-left: 3em;
 }
+.inspiration img {
+	display: block;
+}
 
 .result {
 	border: 1px solid black;
