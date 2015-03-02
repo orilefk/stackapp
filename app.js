@@ -94,6 +94,7 @@ var getUnanswered = function(tags) {
 	});
 };
 
+//GET request from API for top users info
 var getInspiration = function(tag) {
 	var url = "http://api.stackexchange.com/2.2/tags/" + tag + "/top-answerers/all_time";
 	var request = {
@@ -118,6 +119,7 @@ var getInspiration = function(tag) {
 	});
 };
 
+//show API data from getInspiration
 var showInspiration = function(item) {
 	var result = $('.templates .inspiration').clone();
 	var user = result.find('.user a')
